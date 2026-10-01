@@ -1,0 +1,28 @@
+{
+  "version": 8,
+  "name": "Strade vicinali Arsie",
+  "sources": {
+    "strade-vicinali-arsie": {
+      "type": "raster",
+      "tiles": [
+        "https://api.maptiler.com/tiles/01a0f877-1369-7b81-8d07-11905e9fc55e/{z}/{x}/{y}.webp?key=OINQy5s3hQf4SMi6wpKx"
+      ],
+      "tileSize": 256,
+      "minzoom": 10,
+      "maxzoom": 16,
+      "attribution": "Cartografia strade vicinali - Comune di Arsie"
+    }
+  },
+  "layers": [
+    {
+      "id": "strade-vicinali-arsie",
+      "type": "raster",
+      "source": "strade-vicinali-arsie",
+      "minzoom": 10,
+      "maxzoom": 22,
+      "paint": {
+        "raster-opacity": 1
+      }
+    }
+  ]
+}
